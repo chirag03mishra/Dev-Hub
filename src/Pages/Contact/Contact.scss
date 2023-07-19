@@ -1,0 +1,66 @@
+
+  .contact{
+    background-color: rgba(19, 15, 64);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(rgba(19, 15, 64, 0.5), rgb(124, 124, 124, 0.5)), url("../Login/images/image1.jpg") center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(14, 26, 186, 0.3);
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    height: 500px;
+    
+    label {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+  
+    .con-input{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: #f1f1f1;
+      color: #000000;
+  
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 10px rgba(240, 2, 2, 0.3);
+      }
+    }
+  
+    .con-input{
+      resize: none;
+    }
+  
+    .contact-btn {
+      padding: 10px 20px;
+      background-color: #fff;
+      color: #333;
+      border-radius: 5px;
+      border: none;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: all 0.3s;
+  
+      &:hover {
+        background-color: #32c56b;
+        color: #fff;
+      }
+    }
+  }
+  

@@ -1,0 +1,72 @@
+.featured {
+
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 2% 2%;
+
+    .container {
+        width: 1400px;
+        display: flex;
+        align-items: center;
+        padding: 8%;
+        @media (max-width: 768px) {
+            padding: 8%;
+            margin-bottom: 345px;
+        }
+
+
+        .left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+font-size: 28px;
+            width: 50%;
+           
+            @media (max-width: 768px) {
+                font-size:12px ;
+
+            }
+            @media ( (min-width:770px) and (max-width: 1184px)) {
+                width: 100%;
+            }
+        }
+
+        .popular {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            button {
+                color: white;
+                border: 2px solid grey;
+                cursor: pointer;
+                background-color: green;
+                border-radius: 10px;
+                font-size: larger;
+                padding: 2% 5%;
+                font-weight: 600;
+            }
+        }
+
+        .right {
+           img{
+            width: 80%;
+            height: 40%;
+            left: 40%;
+            position: relative;
+            top: 12%;
+
+            @media (max-width: 768px) {
+                width: 50%;
+            }
+            @media ( (min-width:770px) and (max-width: 1184px)) {
+                width: 77%;
+            }
+           }
+          
+           
+        }
+    }
+}
+
